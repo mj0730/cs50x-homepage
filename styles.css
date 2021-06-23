@@ -1,0 +1,55 @@
+/* uses at least five (5) different CSS selectors (e.g. tag (example), class (.example), or ID (#example)), and within which you use a total of at least five (5) different CSS properties, such as font-size, or margin */
+:root {
+  --harvard-crimson: #a51c30;
+}
+
+.contact-container a:hover {
+  text-decoration: none;
+}
+
+.contact-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.contact-btn {
+  width: 5rem;
+  height: 5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px -5px #0000001a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github {
+  color: #333333;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.email {
+  color: #a51c30;
+}
+
+@media (max-width: 576px) {
+  .contact-container {
+    flex: 1 0 100%;
+    gap: 1rem;
+  }
+
+  .contact-container a {
+    display: flex;
+    flex: 1 0 100%;
+  }
+
+  .contact-btn {
+    width: 100%;
+  }
+}
