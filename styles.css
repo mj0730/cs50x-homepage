@@ -51,6 +51,14 @@
   background-color: hsla(351, 71%, 38%, 0.25);
 }
 
+.projects {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 @media (max-width: 576px) {
   .contact-container {
     flex: 1 0 100%;
