@@ -59,6 +59,15 @@
   align-items: flex-start;
 }
 
+.media img {
+  width: 64px;
+  height: 64px;
+}
+
+.about-items .media {
+  margin: 2rem;
+}
+
 @media (max-width: 576px) {
   .contact-container {
     flex: 1 0 100%;
