@@ -24,18 +24,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.1s ease-in;
 }
 
 .github {
   color: #333333;
 }
 
+.github:hover {
+  background-color: hsla(0, 0%, 20%, 0.25);
+}
+
 .linkedin {
   color: #0077b5;
 }
 
+.linkedin:hover {
+  background-color: hsla(201, 100%, 35%, 0.25);
+}
+
 .email {
-  color: #a51c30;
+  color: var(--harvard-crimson);
+}
+
+.email:hover {
+  background-color: hsla(351, 71%, 38%, 0.25);
 }
 
 @media (max-width: 576px) {
